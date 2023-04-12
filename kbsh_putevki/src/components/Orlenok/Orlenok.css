@@ -1,0 +1,193 @@
+h5 {
+    font-family: 'RussianRail G Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: #231F20;
+}
+
+span {
+    font-family: 'RussianRail G Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: #231F20;
+}
+
+/*------------------------Orlenok ОБЩИЕ БЛОКИ----------------------------------*/
+.Orlenok {
+    left: 450px;
+    width: 76.5%;
+    display: flex;
+    justify-content: center;
+    height: 86vh;
+    overflow-y: scroll;
+    position: absolute;
+}
+
+.orlenok_contant {
+    width: 90%;
+}
+
+.orlenok_text_block {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 50px 63px;
+    border-bottom: 1px solid #B0B9C0;
+}
+
+.orlenok_text_block>h4 {
+    font-family: 'RussianRail G Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    color: #231F20;
+}
+
+.orlenok_text_block__span {
+    font-family: 'RussianRail G Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: #231F20;
+}
+
+.orlenok_text_block__h5 {
+    font-family: 'RussianRail G Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: #231F20;
+
+}
+
+/*----------------------БЛОК ГРАФИКА---------------------------*/
+.smena_block {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 277px;
+}
+
+.smena_block:not(:first-child) {
+    margin-top: 12px;
+}
+
+.smena_block>h5 {
+    margin-left: 45px;
+    width: 207px;
+}
+
+/*-----------------------БЛОК СТОИМОСТЬ-----------------------------*/
+.place_block__h5 {
+    margin-left: 315px;
+}
+
+.orlenok_price_block__contant_block {
+    display: flex;
+    width: 75%;
+}
+
+.orlenok_price_block__contant_block__for_civilian {
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%;
+}
+
+.orlenok_price_block__contant_block__for_RZD {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32%;
+    margin-left: 332px;
+}
+
+.orlenok_price_block__contant_block__for_RZD__text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.orlenok_price_block__contant_block__h6 {
+    font-family: 'RussianRail G Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: #231F20;
+}
+
+.orlenok_price_block__contant_block__for_RZD>h6 {
+    margin-bottom: 18px;
+}
+
+.orlenok_price_block__contant_block__for_civilian>h6 {
+    margin-bottom: 26px;
+}
+
+/*-----------------------------БЛОК НОМЕРОВ------------------------------*/
+.orlenok_phonenumber_block>h4 {
+    align-self: flex-start;
+}
+
+.orlenok_phonenumber_block__numbers {
+    margin-left: 445px;
+}
+
+.orlenok_phonenumber_block__numbers>h5:not(:first-child) {
+    margin-top: 20px;
+}
+
+/*-------------------------------СОЦ СЕТИ---------------------------------*/
+.orlenok_socials_block>a {
+    font-family: 'RussianRail G Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: #231F20;
+    margin-left: 362px;
+}
+
+/*--------------------------------ИГРОТЕКА-------------------------------*/
+.orlenok_game_block>a {
+    font-family: 'RussianRail G Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: #231F20;
+    margin-left: 230px;
+}
+
+/*-----------------------------ДОКУМЕНТАЦИЯ-------------------------------*/
+.orlenok_documents_block {
+    margin-left: 65px;
+    width: 90%;
+}
+
+.orlenok_documents_block>h4 {
+    font-family: 'RussianRail G Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    color: #231F20;
+    margin-top: 50px;
+}
+
+.orlenok_documents_block__text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+.orlenok_documents_block__text>p {
+    font-family: 'RussianRail G Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: #231F20;
+}
+
+.orlenok_documents_block__text>p:not(:first-child) {
+    margin-top: 20px;
+}

@@ -1,0 +1,48 @@
+.main_page__header__contant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 119px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.07);
+    z-index: 20;
+}
+
+
+.main_page__header__h1 {
+    color: #E31A1A;
+    font-size: 40px;
+    font-family: "RussianRail G Pro";
+    font-weight: 700;
+}
+
+.main_page__header__exit_block {
+    display: flex;
+    width: 4.5%;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main_page__header__exit_block>span {
+    color: #231F20;
+    font-size: 14px;
+    font-family: "RussianRail G Pro";
+    font-weight: 400;
+}
+
+
+
+.main_page__contant_section {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.15);
+    width: 76.5%;
+    height: 87.5vh;
+}

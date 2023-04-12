@@ -1,0 +1,33 @@
+.main_page__navbar {
+    /* margin-top: 10px; */
+    background: #FFFFFF;
+    width: 23.5%;
+    height: 87.5vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 20;
+    box-shadow: inset 0px 4px 19px rgba(0, 0, 0, 0.15);
+    position: absolute;
+}
+a{
+    text-decoration: none;
+}
+
+.main_page__navbar__li {
+    font-size: 17px;
+    font-family: "RussianRail G Pro";
+    font-weight: 400;
+    color: #000000;
+    padding: 26px 120px;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.main_page__navbar__li.active_link {
+    background: #E9EAED;
+    color: #E31A1A;
+}
