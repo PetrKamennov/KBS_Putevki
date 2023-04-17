@@ -1,21 +1,5 @@
-h5 {
-    font-family: 'RussianRail G Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    color: #231F20;
-}
-
-span {
-    font-family: 'RussianRail G Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    color: #231F20;
-}
-
-/*------------------------Orlenok ОБЩИЕ БЛОКИ----------------------------------*/
-.Orlenok {
+/*------------------------uslada ОБЩИЕ БЛОКИ----------------------------------*/
+.Uslada {
     left: 450px;
     width: 76.5%;
     display: flex;
@@ -25,11 +9,11 @@ span {
     position: absolute;
 }
 
-.orlenok_contant {
+.uslada_contant {
     width: 90%;
 }
 
-.orlenok_text_block {
+.uslada_text_block {
     display: flex;
     width: 100%;
     align-items: center;
@@ -37,7 +21,7 @@ span {
     border-bottom: 1px solid #B0B9C0;
 }
 
-.orlenok_text_block>h4 {
+.uslada_text_block>h4 {
     font-family: 'RussianRail G Pro';
     font-style: normal;
     font-weight: 700;
@@ -45,7 +29,7 @@ span {
     color: #231F20;
 }
 
-.orlenok_text_block__span {
+.uslada_text_block__span {
     font-family: 'RussianRail G Pro';
     font-style: normal;
     font-weight: 400;
@@ -53,7 +37,7 @@ span {
     color: #231F20;
 }
 
-.orlenok_text_block__h5 {
+.uslada_text_block__h5 {
     font-family: 'RussianRail G Pro';
     font-style: normal;
     font-weight: 400;
@@ -83,12 +67,12 @@ span {
     margin-left: 315px;
 }
 
-.orlenok_price_block__contant_block {
+.uslada_price_block__contant_block {
     display: flex;
     width: 75%;
 }
 
-.orlenok_price_block__contant_block__for_civilian {
+.uslada_price_block__contant_block__for_civilian {
     margin-left: 70px;
     display: flex;
     flex-direction: column;
@@ -96,7 +80,7 @@ span {
     width: 24%;
 }
 
-.orlenok_price_block__contant_block__for_RZD {
+.uslada_price_block__contant_block__for_RZD {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,13 +88,13 @@ span {
     margin-left: 332px;
 }
 
-.orlenok_price_block__contant_block__for_RZD__text {
+.uslada_price_block__contant_block__for_RZD__text {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.orlenok_price_block__contant_block__h6 {
+.uslada_price_block__contant_block__h6 {
     font-family: 'RussianRail G Pro';
     font-style: normal;
     font-weight: 400;
@@ -118,29 +102,29 @@ span {
     color: #231F20;
 }
 
-.orlenok_price_block__contant_block__for_RZD>h6 {
+.uslada_price_block__contant_block__for_RZD>h6 {
     margin-bottom: 18px;
 }
 
-.orlenok_price_block__contant_block__for_civilian>h6 {
+.uslada_price_block__contant_block__for_civilian>h6 {
     margin-bottom: 26px;
 }
 
 /*-----------------------------БЛОК НОМЕРОВ------------------------------*/
-.orlenok_phonenumber_block>h4 {
+.uslada_phonenumber_block>h4 {
     align-self: flex-start;
 }
 
-.orlenok_phonenumber_block__numbers {
+.uslada_phonenumber_block__numbers {
     margin-left: 445px;
 }
 
-.orlenok_phonenumber_block__numbers>h5:not(:first-child) {
+.uslada_phonenumber_block__numbers>h5:not(:first-child) {
     margin-top: 20px;
 }
 
 /*-------------------------------СОЦ СЕТИ---------------------------------*/
-.orlenok_socials_block>a {
+.uslada_socials_block>a {
     font-family: 'RussianRail G Pro';
     font-style: normal;
     font-weight: 400;
@@ -150,7 +134,7 @@ span {
 }
 
 /*--------------------------------ИГРОТЕКА-------------------------------*/
-.orlenok_game_block>a {
+.uslada_game_block>a {
     font-family: 'RussianRail G Pro';
     font-style: normal;
     font-weight: 400;
@@ -160,12 +144,12 @@ span {
 }
 
 /*-----------------------------ДОКУМЕНТАЦИЯ-------------------------------*/
-.orlenok_documents_block {
+.uslada_documents_block {
     margin-left: 65px;
     width: 90%;
 }
 
-.orlenok_documents_block>h4 {
+.uslada_documents_block>h4 {
     font-family: 'RussianRail G Pro';
     font-style: normal;
     font-weight: 700;
@@ -174,13 +158,13 @@ span {
     margin-top: 50px;
 }
 
-.orlenok_documents_block__text {
+.uslada_documents_block__text {
     display: flex;
     flex-direction: column;
     margin-top: 45px;
 }
 
-.orlenok_documents_block__text>p {
+.uslada_documents_block__text>p {
     font-family: 'RussianRail G Pro';
     font-style: normal;
     font-weight: 400;
@@ -188,6 +172,6 @@ span {
     color: #231F20;
 }
 
-.orlenok_documents_block__text>p:not(:first-child) {
+.uslada_documents_block__text>p:not(:first-child) {
     margin-top: 20px;
 }

@@ -13,7 +13,7 @@ a{
     text-decoration: none;
 }
 
-.main_page__navbar__li {
+.raduga,.zaslonova,.gagarina,.uslada,.orlenok {
     font-size: 17px;
     font-family: "RussianRail G Pro";
     font-weight: 400;
@@ -27,7 +27,7 @@ a{
 
 }
 
-.main_page__navbar__li.active_link {
+.active_link {
     background: #E9EAED;
     color: #E31A1A;
 }

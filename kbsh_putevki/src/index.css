@@ -1,3 +1,39 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  list-style: none;
+}
+
+input {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border: none;
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +46,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'RussianRail G Pro';
+  src: local('RussianRail G Pro'), url('./fonts/RussianRail G Regular.otf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'RussianRail G Pro';
+  src: local('RussianRail G Pro'), url('./fonts/RussianRail G Pro Bold.otf') format('truetype');
+  font-weight: 700;
 }
